@@ -5,6 +5,7 @@
 package frontend;
 
 import com.aed.backend.FirstAssignment;
+import java.util.ArrayList;
 
 /**
  *
@@ -12,6 +13,8 @@ import com.aed.backend.FirstAssignment;
  */
 public class HRTool extends javax.swing.JFrame {
     FirstAssignment data;
+    public static ArrayList<FirstAssignment> list = new ArrayList<>();
+    //public static ArrayList<String> errors = new ArrayList<>();
     /**
      * Creates new form HRTool
      */
@@ -76,6 +79,8 @@ public class HRTool extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(Button);
 
+        View.setBackground(new java.awt.Color(255, 255, 255));
+
         javax.swing.GroupLayout ViewLayout = new javax.swing.GroupLayout(View);
         View.setLayout(ViewLayout);
         ViewLayout.setHorizontalGroup(
@@ -115,7 +120,8 @@ public class HRTool extends javax.swing.JFrame {
     }//GEN-LAST:event_createEmployeeMouseClicked
 
     private void viewEmployeeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_viewEmployeeMouseClicked
-        ViewEmployee viewPanel = new ViewEmployee(data);
+        //CreateEmployee createPanel = new CreateEmployee(data);
+        ViewEmployee viewPanel = new ViewEmployee();
         jSplitPane1.setRightComponent(viewPanel);
         //data.setName(viewPanel.NameLabel.setText(data.getName()));
     }//GEN-LAST:event_viewEmployeeMouseClicked
@@ -124,6 +130,7 @@ public class HRTool extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+    
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.

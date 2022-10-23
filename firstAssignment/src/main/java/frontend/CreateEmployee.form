@@ -20,20 +20,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -41,7 +33,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="99" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
@@ -51,7 +43,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="ContactInfo" min="-2" pref="135" max="-2" attributes="0"/>
+                      <Component id="ContactInfo" min="-2" pref="171" max="-2" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
                               <Component id="ProfilePicture" max="32767" attributes="0"/>
@@ -75,62 +67,55 @@
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="EmployeeIDTextField" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                                              <Component id="FirstNameTextField" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                              <Component id="PhoneNumberTextField" min="-2" pref="195" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="LastName" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Age" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="PositionTextField" pref="158" max="32767" attributes="0"/>
+                                                  <Component id="LevelTextField" max="32767" attributes="0"/>
+                                              </Group>
                                           </Group>
                                       </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="Title" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="Mail" min="-2" pref="69" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="MailTextField" min="-2" pref="198" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                              <Component id="Team" min="-2" pref="89" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="TeamTextField" min="-2" pref="158" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="LastNameTextField" min="-2" pref="198" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
                                       <Component id="AgeTextField" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="Male" min="-2" pref="67" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-                                  <Component id="Female" min="-2" pref="104" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="Others" min="-2" pref="99" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="PositionTextField" pref="158" max="32767" attributes="0"/>
-                                              <Component id="LevelTextField" max="32767" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Component id="PhoneNumberTextField" min="-2" pref="195" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="EmployeeIDTextField" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="FirstNameTextField" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="Mail" min="-2" pref="69" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="MailTextField" min="-2" pref="198" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="Age" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="Team" min="-2" pref="89" max="-2" attributes="0"/>
+                                          <Component id="LastName" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="TeamTextField" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="LastNameTextField" min="-2" pref="188" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -141,31 +126,47 @@
                                       <Component id="Choose" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jDateChooser1" min="-2" pref="157" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="Male" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="Female" min="-2" pref="82" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="Others" min="-2" pref="99" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Title" min="-2" pref="137" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="146" max="32767" attributes="0"/>
+                  <EmptySpace pref="136" max="32767" attributes="0"/>
               </Group>
+              <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="Title" min="-2" pref="63" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="LastName" min="-2" max="-2" attributes="0"/>
+                          <Component id="FirstNameTextField" min="-2" max="-2" attributes="0"/>
+                          <Component id="LastNameTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="Name" min="-2" pref="26" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="FirstName" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="Title" min="-2" pref="52" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="LastName" min="-2" max="-2" attributes="0"/>
-                              <Component id="FirstNameTextField" min="-2" max="-2" attributes="0"/>
-                              <Component id="LastNameTextField" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
@@ -183,7 +184,10 @@
                       <Component id="Others" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="StartDate" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="StartDate" pref="26" max="32767" attributes="0"/>
+                      <Component id="jDateChooser1" max="32767" attributes="0"/>
+                  </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="Level" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
@@ -197,24 +201,15 @@
                       <Component id="PositionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="ContactInfo" min="-2" pref="26" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="PhoneNumber" min="-2" max="-2" attributes="0"/>
-                                  <Component id="PhoneNumberTextField" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Component id="Mail" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="MailTextField" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                  <Component id="ContactInfo" min="-2" pref="26" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="PhoneNumber" min="-2" max="-2" attributes="0"/>
+                      <Component id="PhoneNumberTextField" min="-2" max="-2" attributes="0"/>
+                      <Component id="Mail" min="-2" max="-2" attributes="0"/>
+                      <Component id="MailTextField" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="ProfilePicture" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="Choose" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -229,12 +224,18 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Title">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="17" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Create Employee"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Name">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Name"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="15" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Name:"/>
           </Properties>
         </Component>
         <Component class="java.awt.Label" name="FirstName">
@@ -249,6 +250,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="Employeeid">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="15" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Emplyee ID"/>
           </Properties>
         </Component>
@@ -259,6 +263,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="Gender">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Liberation Sans" size="15" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Gender"/>
           </Properties>
         </Component>
@@ -280,6 +287,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Female"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FemaleActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JRadioButton" name="Others">
           <Properties>
@@ -288,22 +298,37 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Others"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OthersActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="FirstNameTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not given"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="LastNameTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not given"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="EmployeeIDTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not given"/>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmployeeIDTextFieldActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="AgeTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="StartDate">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Start Date"/>
           </Properties>
@@ -311,7 +336,7 @@
         <Component class="javax.swing.JLabel" name="Level">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Level"/>
           </Properties>
@@ -319,31 +344,40 @@
         <Component class="javax.swing.JLabel" name="Team">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Team Info"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="LevelTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="TeamTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not given"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Position">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Position"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="PositionTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not decided"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="ContactInfo">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Contact Information"/>
+            <Property name="text" type="java.lang.String" value="Contact Information:"/>
           </Properties>
         </Component>
         <Component class="java.awt.Label" name="PhoneNumber">
@@ -352,6 +386,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="PhoneNumberTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000"/>
+          </Properties>
         </Component>
         <Component class="java.awt.Label" name="Mail">
           <Properties>
@@ -359,11 +396,14 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="MailTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Not given"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="ProfilePicture">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Liberation Sans" size="15" style="0"/>
+              <Font name="Liberation Sans" size="15" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Profile Picture"/>
           </Properties>
@@ -379,11 +419,18 @@
         </Component>
         <Component class="javax.swing.JButton" name="Add">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Add Employee"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AddMouseClicked"/>
           </Events>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
         </Component>
       </SubComponents>
     </Container>

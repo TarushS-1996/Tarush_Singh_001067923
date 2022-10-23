@@ -5,6 +5,8 @@
 
 package com.aed.backend;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author tarush
@@ -21,9 +23,14 @@ public class FirstAssignment {
     private String PhoneNumber;
     private String Email;
     private String Path;
+    private ArrayList<String> errors = new ArrayList<>();
 
     public String getPath() {
         return Path;
+    }
+
+    public ArrayList<String> getErrors() {
+        return errors;
     }
 
     public void setPath(String Path) {
@@ -51,7 +58,12 @@ public class FirstAssignment {
     }
 
     public void setAge(String Age) {
-        this.Age = Age;
+        int i = Integer.parseInt(Age);
+        if (i>18){
+            this.Age = Age;
+        }else {
+            this.errors.add("Age of the employee must be greater than 18.");
+        }
     }
 
     public String getGender() {
@@ -59,7 +71,11 @@ public class FirstAssignment {
     }
 
     public void setGender(String Gender) {
-        this.Gender = Gender;
+        if (Gender != null && !Gender.trim().isEmpty()){
+            this.Gender = Gender;            
+        }else{
+            this.errors.add("Gender is not selected. Please specify."); 
+        }
     }
 
     public String getStartDate() {
@@ -67,7 +83,11 @@ public class FirstAssignment {
     }
 
     public void setStartDate(String StartDate) {
-        this.StartDate = StartDate;
+        if (StartDate == null && StartDate.trim().isEmpty()){
+            this.errors.add("Start date is empty. Please select a start date.");
+        }else{
+            this.StartDate = StartDate;
+        }
     }
 
     public String getLevel() {
@@ -99,7 +119,11 @@ public class FirstAssignment {
     }
 
     public void setPhoneNumber(String PhoneNumber) {
-        this.PhoneNumber = PhoneNumber;
+        if (PhoneNumber.length() <= 12 && PhoneNumber.length()>=10){
+            this.PhoneNumber = PhoneNumber;
+        }else{
+            this.errors.add("Phone number needs to be 10-12 digist long. Please verify.");
+        }
     }
 
     public String getEmail() {
@@ -107,6 +131,10 @@ public class FirstAssignment {
     }
 
     public void setEmail(String Email) {
-        this.Email = Email;
+        if (Email.contains("@")||Email.endsWith(".com")){
+            this.Email = Email;
+        }else{
+            this.errors.add("Email seems to be incomplete or incorrect. Please verify.");
+        }
     }
-    }
+}
