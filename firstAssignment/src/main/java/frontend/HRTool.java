@@ -17,7 +17,7 @@ public class HRTool extends javax.swing.JFrame {
     //public static ArrayList<String> errors = new ArrayList<>();
     /**
      * Creates new form HRTool
-     * Made by Tarush Singh
+     * Made by Tarush 
      */
     public HRTool() {
         initComponents();
